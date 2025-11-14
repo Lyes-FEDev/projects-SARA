@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="/components/payment.css">
+</head>
+<body>
+          <section class="payment" id="payment">
+        <div class="close" id="close">X</div>
+        
+        <form>
+            <h3 class="payTitle">Personnal Informations</h3>
+            <label for="full name">Full name:</label>
+            <input type="text" placeholder="Emily Johnson"><br>
+        
+            <label for="Phonenumber">Phone number</label>
+            <input type="phone" placeholder="+1 258 896 475"><br>
+          
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" placeholder="123 Maple St, Suite 4, New York, NY 10001, USA">
+          
+            <h3 class="cardTitle">Card Information</h3>
+            <img src="/MultiMedia/paymentIconsjpg.jpg" alt="Payment icons" class="payIcons">
+
+            <input type="text" name="CardNumber" id="cardNumb" placeholder="5555 5555 5555 4444">
+           
+            <div class="cardDate">
+            <input type="text" name="" class="mm" placeholder="mm">
+            <input type="text" name="" class="dd" placeholder="dd">
+            <input type="text" name="" class="yyyy" placeholder="yyyy">
+           </div>
+            <button class="checkout" id="checkout">Checkout!</button>
+          </form>    
+      </section>
+</body>
+</html>

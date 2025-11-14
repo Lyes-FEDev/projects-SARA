@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin: auto;
+    padding: 50px 30px 0 30px;
+    width: 70%;
+}
+h1{
+    font-size: xxx-large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input{
+    margin: 10px 0;
+    padding: 5px 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.read, .agreed{
+    display: inline-block;  
+    vertical-align: middle;
+}
+span{
+    margin-left: 3px;
+}
+
+.signupBtn{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.signupBtn:hover{
+    background-color: rgb(42, 42, 42);
+    transition: translate 5s ease;
+}
+
+.passwordContainer{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.passwordContainer input{
+    width: 96%;
+    padding-right: 5px;
+}
+.eyeIcon{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*
+=======
+responsive
+=======
+*/
+@media screen and (min-width: 800px){
+   .signup{
+    width: 50%;
+   }
+}

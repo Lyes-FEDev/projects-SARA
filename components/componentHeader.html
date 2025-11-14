@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Google icon-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <!--Google icon-->
+    <title>Header</title>
+    <link rel="stylesheet" href="/components/componentHeader.css">
+
+    <script src="/JavaScript/mobileMenu.js" defer></script>
+    <script type="module" src="/JavaScript/renderProducts.js" defer></script>
+    <script type="module" src="/JavaScript/main.js" defer></script>
+    <script type="module" src="/JavaScript/cartCounter.js" defer></script>
+
+</head>
+<body>
+    <header>
+      <p class="announce-bar">Free shipping under 70€!</p>
+
+      <nav class="navbar">
+        <!--Logo-->
+        <a href="/HTML/index.html" class="logo"> <h1>SARA</h1></a>
+
+        <div class="menu" id="menu">
+          <ul class="menuList">
+            <li>
+              <a href="/HTML/dresses.html" class="productmenu"><span>Dresses</span></a></li>
+            <li>
+              <a href="/HTML/jeans.html" class="productmenu"><span>Jeans</span></a></li>
+            <li>
+              <a href="/HTML/shoes.html" class="productmenu"><span>Shoes</span></a></li>
+            <li>
+              <a href="/HTML/jewellery.html" class="productmenu"><span>Jewellery</span></a></li>
+            <li>
+              <a href="/HTML/coats.html" class="productmenu"><span>Coats</span></a></li>
+            <li>
+              <a href="/HTML/bags.html" class="productmenu"><span>Bags</span></a></li>
+          </ul>
+        </div>
+
+        <div class="nav-right">
+          <!--SearchBar-->
+          <input class="search" type="search" placeholder="search a product..." />
+          <img src="/MultiMedia/searchIcon.png" alt="search icon" class="searchIcon">
+
+          <!--Basket-->
+<div class="shopping-cart">
+   <a href="/HTML/cart.html">
+       <!-- Icon du panier -->
+       <span class="material-symbols-outlined cart-icon" id="cart-icon">shopping_cart</span>
+   </a>       
+   <!-- Compteur du panier -->
+   <span class="shopping-cart-accounter" id="cart-count">0</span>
+</div>
+
+
+          <!--Account-->
+          <a href="/HTML/account.html"><span class="material-symbols-outlined">person</span></a>
+
+          <div class="lines" id="lines">
+           <div class="line1" id="line1"></div>
+           <div class="line2" id="line2"></div>
+           <div class="line3" id="line3"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+</body>
+</html>

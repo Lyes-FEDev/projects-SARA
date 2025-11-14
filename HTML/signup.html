@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARA | Signup</title>
+    <link rel="stylesheet" href="/CSS/signup.css">
+    <script src="/JavaScript/signup.js" defer></script>
+</head>
+<body>
+    <section class="signup">
+        <a href="/HTML/index.html"><h1>SARA</h1></a>
+        <p class="text">Personal details</p>
+
+        <form action="">
+            <input type="email" name="email" id="email" placeholder="EMAIL" required>
+
+            <div class="passwordContainer">
+             <input type="password" name="pswd" id="pswd" class="pswd" placeholder="PASSWORD" required>
+             <img src="/MultiMedia/eye.png" class="eyeIcon" id="eyeIcon" alt="eye icon">
+            </div>
+
+            <input type="text" name="name" class="name" placeholder="NAME" required>
+            
+            <input type="text" name="surname" class="name" placeholder="SURNAME" required>
+
+            <div class="agreed">
+             <input type="checkbox" name="agreed" ><span>I want to receive personalised commercial communications from SARA by email.</span>
+            </div>
+            
+            <div class="read">
+             <input type="checkbox" name="read" required><span>*I have read and understand the <a href="#" target="_blank">Privacy and Cookies Policy.</a></span>
+            </div>
+
+            <button class="signupBtn">CREATE MY ACCOUNT!</button>
+        </form>
+    </section>
+</body>
+</html>

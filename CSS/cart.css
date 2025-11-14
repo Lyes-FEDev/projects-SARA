@@ -1,0 +1,76 @@
+
+:root {
+        --primary-color: white;
+        --secondary-color: black;
+        --button-color:  rgb(11, 11, 11);
+        --hover-color:  rgb(143, 115, 81);
+        --second-hover: #333;
+ }
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+}
+
+.shop-cart-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: #f9f9f9;
+  margin: 0 30px;
+  width: 90%;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.product-img{
+  width: 100px;
+  height: 100px;
+}
+
+.minus, .plus{
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  font-size: medium;
+}
+button:hover{
+  background-color: var(--second-hover);
+}
+button, .quantity-number{
+  height: 25px;
+  width: 25px;
+}
+
+
+.buy-now{
+  transform: translateX(40%);
+  flex-wrap: nowrap;
+  width: 120px;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: var(--secondary-color);
+  background-color: var(--button-color);
+  cursor: pointer;
+  border: 1px solid var(--button-color);
+  letter-spacing: 1px;
+  margin: 20px 0 30px 0;
+}
+.buy-now:hover{
+  color: var(--primary-color);
+  background-color: var(--hover-color);
+}
+
+.panierVide{
+  text-align: center;
+}

@@ -1,0 +1,168 @@
+:root {
+        --primary-color: white;
+        --secondary-color: black;
+        --button-color:  rgb(222, 176, 120);
+        --hover-color:  rgb(143, 115, 81);
+ }
+
+/*FOOTER*/
+footer{ 
+  display: flex;
+  background-color: var(--secondary-color);
+  align-items: flex-start;
+}
+
+a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0;
+    margin-bottom: 0;
+}
+
+.menutitle, .menutitle2, .follow{
+     color: var(--primary-color);
+     text-decoration: underline;
+}
+
+.fMenuList{
+    list-style: none;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.fMenuListItem{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: var(--secondary-color);
+    transition: transform 0.2s ease;
+}
+.fMenuListItem:hover{
+    transform: scale(1.09);
+}
+
+  /*FOOTER RIGHT*/
+.footerRight{
+    flex: 1;
+    color: var(--primary-color);
+    padding: 50px 30px 20px 20px;
+    margin: 0;
+}
+.fp{
+    font-size: 14px;
+    word-spacing: 4px;
+}
+  .email{
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    width: 20vw;
+    text-transform: uppercase;
+  }
+
+  .email, .fButton{
+    margin-bottom: 5px;
+  }
+
+  .fButton{
+    cursor: pointer;
+    color: var(--secondary-color);
+    background-color: var(--button-color);
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 22vw;
+  }
+.fButton:hover{
+    color: var(--primary-color);
+    background-color: var(--hover-color);
+}
+  /*Social Icons*/
+  .fIcons{
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .fIcons:hover{
+    transform: scale(1.4);
+  }
+
+  hr{
+    background: gray;
+    border: none;
+    height: 2px;
+  }
+ .rights{
+    font-size: 14px;
+    color: gray;
+    word-spacing: 1px;
+ }
+
+/*Footer END*/
+
+/* 
+============
+RESPONSIVE
+============
+*/
+@media  screen and (max-width: 900px) {
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footerLeft{
+    padding: 20px 20px 0 20px;
+  }
+  .footerRight{
+    padding:  0 20px;
+  }
+  .allRights{
+   padding-bottom: 30px;
+  }
+  .newsletter{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+  }
+
+  .email{
+    flex: 2;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 4px 10px;
+  }
+
+  .fButton{
+    flex: 1;
+    cursor: pointer;
+    color: var(--secondary-color);
+    background-color: var(--button-color);
+    border: 1px solid transparent;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+.fButton:hover{
+    color: var(--primary-color);
+    background-color: var(--hover-color);
+  }
+  .email, .fButton{
+    margin-bottom: 0;
+  }
+
+}
