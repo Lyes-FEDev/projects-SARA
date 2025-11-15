@@ -1,5 +1,5 @@
-import { initPaymentPopup } from "https://lyes-fedev.github.io//paymentPopup.js";
-import { calculation } from "https://lyes-fedev.github.io//cartCounter.js";
+import { initPaymentPopup } from "https://lyes-fedev.github.io/projects-SARA/JavaScript/paymentPopup.js";
+import { calculation } from "https://lyes-fedev.github.io/projects-SARA/JavaScript/cartCounter.js";
 
 document.addEventListener('DOMContentLoaded', () => {
   const cartContainer = document.getElementById('cart-container');
