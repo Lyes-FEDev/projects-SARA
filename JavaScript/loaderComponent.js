@@ -6,7 +6,7 @@
 async function loadLayout() {
   try {
     // Charger le header
-    const headerResponse = await fetch("/components/componentHeader.html");
+    const headerResponse = await fetch("./components/componentHeader.html");
     const headerHTML = await headerResponse.text();
     document.getElementById("header").innerHTML = headerHTML;
 
@@ -16,13 +16,13 @@ async function loadLayout() {
     });
 
     // Charger le footer
-    const footerResponse = await fetch("/components/componentFooter.html");
+    const footerResponse = await fetch("./components/componentFooter.html");
     const footerHTML = await footerResponse.text();
     document.getElementById("footer").innerHTML = footerHTML;
 
     // Charger le script du menu APRÈS insertion du header
     const menuScript = document.createElement("script");
-    menuScript.src = "/JavaScript/mobileMenu.js";
+    menuScript.src = "./JavaScript/mobileMenu.js";
     document.body.appendChild(menuScript);
 
   } catch (error) {
