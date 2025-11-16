@@ -26,7 +26,7 @@ Ideal For: Special Occasions, Evening Events`
 
   {
     id: 2,
-    img: ["./MultiMedia/products imgs/bags/bagbeige.png", "./MultiMedia/products imgs/bags/bagblack.png", "./MultiMedia/products imgs/bags/bagbrown.png", "/MultiMedia/products imgs/bags/bagwhite.png"],
+    img: ["./MultiMedia/products imgs/bags/bagbeige.png", "./MultiMedia/products imgs/bags/bagblack.png", "./MultiMedia/products imgs/bags/bagbrown.png", "./MultiMedia/products imgs/bags/bagwhite.png"],
     productName: "Bag",
     price: "998€",
     size: "One size",
@@ -61,7 +61,7 @@ Style: Classic / Luxury`
 
   {
     id: 3,
-    img: ["/MultiMedia/products imgs/coats/coatbeige.png", "/MultiMedia/products imgs/coats/coatblack.png", "/MultiMedia/products imgs/coats/coatbrown.png", "/MultiMedia/products imgs/coats/coatgrena.png", "/MultiMedia/products imgs/coats/coatred.png"],
+    img: ["./MultiMedia/products imgs/coats/coatbeige.png", "./MultiMedia/products imgs/coats/coatblack.png", "./MultiMedia/products imgs/coats/coatbrown.png", "./MultiMedia/products imgs/coats/coatgrena.png", "./MultiMedia/products imgs/coats/coatred.png"],
     productName: "Coats",
     price: "1339€",
     size: "S | M | L | XL",
@@ -97,7 +97,7 @@ Occasion: Work, Casual, Evening, Winter`
 
   {
     id: 4,
-    img: ["/MultiMedia/products imgs/jeans/jeanblue.png", "/MultiMedia/products imgs/jeans/jeannavy.png", "/MultiMedia/products imgs/jeans/jeanblack.png"],
+    img: ["./MultiMedia/products imgs/jeans/jeanblue.png", "./MultiMedia/products imgs/jeans/jeannavy.png", "./MultiMedia/products imgs/jeans/jeanblack.png"],
     productName: "Jeans",
     price: "123€",
     size: "S | M | L | XL",
@@ -132,7 +132,7 @@ Style: Casual / Modern Chic`
 
   {
     id: 5,
-    img: ["/MultiMedia/products imgs/jewellery/jewellery2.png"],
+    img: ["./MultiMedia/products imgs/jewellery/jewellery2.png"],
     productName: "Jewellery",
     price: "1023€",
     size: "One size",
@@ -149,7 +149,7 @@ Wear it and feel the magic.`
 
   {
     id: 6,
-    img: ["/MultiMedia/products imgs/shoes/shoesbeige.png", "/MultiMedia/products imgs/shoes/shoesblack.png", "/MultiMedia/products imgs/shoes/shoesbrown.png", "/MultiMedia/products imgs/shoes/shoesgreen.png", "/MultiMedia/products imgs/shoes/shoesgrena.png"],
+    img: ["./MultiMedia/products imgs/shoes/shoesbeige.png", "./MultiMedia/products imgs/shoes/shoesblack.png", "./MultiMedia/products imgs/shoes/shoesbrown.png", "./MultiMedia/products imgs/shoes/shoesgreen.png", "./MultiMedia/products imgs/shoes/shoesgrena.png"],
     productName: "Shoes",
     price: "775€",
     size: "S | M | L | XL",
