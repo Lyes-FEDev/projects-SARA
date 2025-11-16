@@ -1,5 +1,5 @@
 import products from "./productsData.js";
-import { initPaymentPopup } from '/JavaScript/paymentPopup.js';
+import { initPaymentPopup } from './JavaScript/paymentPopup.js';
 import { calculation } from "./cartCounter.js";
 
 // === Classe de rendu des produits ===
@@ -126,7 +126,7 @@ if (product) {
 // === Charger la popup paiement ===
 async function loadPaymentPopup() {
   try {
-    const response = await fetch('/components/payment.html');
+    const response = await fetch('./components/payment.html');
     const html = await response.text();
     const tempDiv = document.createElement('div');
     tempDiv.innerHTML = html;

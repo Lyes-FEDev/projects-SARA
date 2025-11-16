@@ -6,23 +6,23 @@
 async function loadLayout() {
   try {
     // Charger le header
-    const headerResponse = await fetch("/components/componentHeader.html");
+    const headerResponse = await fetch("./components/componentHeader.html");
     const headerHTML = await headerResponse.text();
     document.getElementById("header").innerHTML = headerHTML;
 
      // 🔹 Mettre à jour le compteur après que le header soit injecté
-    import('/JavaScript/cartCounter.js').then(module => {
+    import('./JavaScript/cartCounter.js').then(module => {
       module.calculation();
     });
 
     // Charger le footer
-    const footerResponse = await fetch("/components/componentFooter.html");
+    const footerResponse = await fetch("./components/componentFooter.html");
     const footerHTML = await footerResponse.text();
     document.getElementById("footer").innerHTML = footerHTML;
 
     // Charger le script du menu APRÈS insertion du header
     const menuScript = document.createElement("script");
-    menuScript.src = "/JavaScript/mobileMenu.js";
+    menuScript.src = "./JavaScript/mobileMenu.js";
     document.body.appendChild(menuScript);
 
   } catch (error) {
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", loadLayout);
 //Payment Poup
 // date: 27-10-2025, By Lyes MEDJAHED
 
-fetch('/components/payment.html')
+fetch('./components/payment.html')
   .then(res => res.text())
   .then(html => {
       document.body.insertAdjacentHTML('beforeend', html);
@@ -56,7 +56,7 @@ async function loadComingSoon() {
   if (!soonContainer) return; // S'il n'y a pas de zone #soon, on ne fait rien
 
   try {
-    const response = await fetch("/components/comingSoon.html");
+    const response = await fetch("./components/comingSoon.html");
     if (!response.ok) throw new Error("Erreur de chargement du composant Coming Soon");
 
     const html = await response.text();

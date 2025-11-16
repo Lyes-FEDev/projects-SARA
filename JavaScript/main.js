@@ -88,7 +88,7 @@ calculation();
 
 
 //load coming soon
-import { coming } from '/JavaScript/loaderComponent.js';
+import { coming } from './JavaScript/loaderComponent.js';
 
 // Appel de la fonction pour charger le composant
 document.addEventListener('DOMContentLoaded', () => {

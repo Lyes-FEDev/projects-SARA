@@ -4,7 +4,7 @@
 const products = [
   {
     id: 1,
-    img: ["/MultiMedia/dress.png", "/MultiMedia/products imgs/dressblack.png"],
+    img: ["./MultiMedia/dress.png", "./MultiMedia/products imgs/dressblack.png"],
     productName: "Dress",
     price: "1023€",
     size: "S | M | L | XL",
@@ -26,7 +26,7 @@ Ideal For: Special Occasions, Evening Events`
 
   {
     id: 2,
-    img: ["/MultiMedia/products imgs/bags/bagbeige.png", "/MultiMedia/products imgs/bags/bagblack.png", "/MultiMedia/products imgs/bags/bagbrown.png", "/MultiMedia/products imgs/bags/bagwhite.png"],
+    img: ["./MultiMedia/products imgs/bags/bagbeige.png", "./MultiMedia/products imgs/bags/bagblack.png", "./MultiMedia/products imgs/bags/bagbrown.png", "/MultiMedia/products imgs/bags/bagwhite.png"],
     productName: "Bag",
     price: "998€",
     size: "One size",
