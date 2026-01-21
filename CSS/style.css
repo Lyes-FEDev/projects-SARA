@@ -89,6 +89,16 @@ body{
 }
 /*END HEADER*/
 
+/*
+.home-page .menuList {
+    display: none;
+    opacity: 0;          
+    pointer-events: none; 
+    height: 0;           
+    overflow: hidden;     
+} 
+ */
+
 /*Scroll Trigger*/
 .rotator{
 	/* IMPORTANT FOR THE SNAPPING */
@@ -234,7 +244,7 @@ h2 {
   color: black;
 }
 
-/*By Lyes 1011/2025 add stroke text*/
+/*By Lyes 10/11/2025 add stroke text*/
 .txt{
     color: transparent;
     -webkit-text-stroke: 3px var(--hover-color);
@@ -408,7 +418,7 @@ label{
     border: 1px solid transparent;
 }
 
-/*FOOTER*/
+/*FOOTER*//*
 footer{ 
     display: flex;
     background-color: var(--secondary-color);
@@ -440,9 +450,9 @@ footer{
 }
 .fMenuListItem:hover{
      transform: scale(1.09);
-}
+} */
 
-  /*FOOTER RIGHT*/
+  /*FOOTER RIGHT*//*
 .footerRight{
     flex: 1;
     padding: 50px;
@@ -472,8 +482,9 @@ footer{
 .fButton:hover{
     color: var(--primary-color);
     background-color: var(--hover-color);
-}
+} */
   /*Social Icons*/
+  /*
   .fIcons{
     height: 25px;
     width: 25px;
@@ -495,7 +506,7 @@ footer{
     color: gray;
     word-spacing: 1px;
  }
-/*Footer*/
+Footer*/
 
 /* 
 ===========
