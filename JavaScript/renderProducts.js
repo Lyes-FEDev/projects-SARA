@@ -1,5 +1,5 @@
 import products from "./productsData.js";
-import { initPaymentPopup } from './JavaScript/paymentPopup.js';
+import { initPaymentPopup } from './paymentPopup.js';
 import { calculation } from "./cartCounter.js";
 
 // === Classe de rendu des produits ===
@@ -10,8 +10,7 @@ class RenderProducts {
 
   render() {
     const imageSrc = Array.isArray(this.product.img)
-      ? this.product.img[0]
-      : this.product.img;
+      ? this.product.img[0] : this.product.img;
 
     const container = document.createElement("div");
     container.classList.add("product-card");
@@ -44,10 +43,15 @@ class RenderProducts {
     }
 
     // ===  Bouton "Add to Cart" fonctionnel ===
-    const addButton = container.querySelector(".addTC, .cart");
+    const addButton = container.querySelector(".addTC");
     addButton.addEventListener("click", () => {
       addToCart(this.product);
     });
+    if (addButton) {
+  addButton.addEventListener("click", () => {
+    addToCart(this.product);
+  });
+}
 
     return container;
   }
