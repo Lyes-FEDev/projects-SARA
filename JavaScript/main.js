@@ -4,7 +4,6 @@
 
 import { calculation } from "./cartCounter.js";
 
-
 class Products{
     constructor(title, price, size, color, description, stock){
         this.title = title;
