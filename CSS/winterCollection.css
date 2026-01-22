@@ -23,7 +23,7 @@ body{
     color: transparent;
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     -webkit-text-fill-color: transparent;
-    background-image: url(/MultiMedia/newcollection1.jpg);
+    background-image: url(../MultiMedia/newcollection1.jpg);
     word-spacing: 2px;
     font-family: 'Dancing Script', cursive;
     

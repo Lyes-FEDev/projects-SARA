@@ -49,7 +49,6 @@ class RenderProducts {
 
     // === ADD TO CART (UNE SEULE FOIS) ===
     const addButton = container.querySelector(".addTC");
-
     addButton.addEventListener("click", () => {
       addToCart(this.product);
     });
@@ -102,11 +101,13 @@ function addToCart(product) {
 }
 
 // ==================
-// CODE PRINCIPAL
+// CODE PRINCIPAL (CORRIGÉ POUR iOS)
 // ==================
-const productSection = document.querySelector(".product-page");
+document.addEventListener("DOMContentLoaded", () => {
+  const productSection = document.querySelector(".product-page");
 
-if (productSection) {
+  if (!productSection) return;
+
   productSection.innerHTML = "";
 
   const productName = productSection.dataset.product;
@@ -120,12 +121,11 @@ if (productSection) {
   } else {
     productSection.innerHTML = "<p>Produit non trouvé.</p>";
   }
-}
 
-// ==================
-// PAYMENT POPUP
-// ==================
-document.addEventListener("DOMContentLoaded", () => {
-  initPaymentPopup(".buy-now");
-  calculation();
+// PAYMENT POPUP et compteur
+const buyNowButton = productSection.querySelector(".buy-now");
+if (buyNowButton) {
+  initPaymentPopup(buyNowButton); // On passe le bouton spécifique
+}
+calculation();
 });
