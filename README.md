@@ -1,5 +1,5 @@
 # SARA | Fashion E-commerce
-A modern and responsive fashion e-commerce website built with JavaScript (ES6), featuring dynamic content, interactive shopping features, and smooth animations powered by GSAP.
+_A modern and responsive fashion e-commerce website built with JavaScript (ES6), featuring dynamic content, interactive shopping features, and smooth animations powered by GSAP._
 
 ## 🚀 Live Demo
 🔗 [https://LyesMedjahed/projects-SARA.com](https://lyesmedjahed.github.io/projects-SARA/)
