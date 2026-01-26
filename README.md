@@ -3,10 +3,10 @@
 A modern frontend responsive web site built with ES6, focused on clean UI and smooth animations.
 
 ## 🚀 Live Demo
-🔗 [https://your-live-demo-link.com](https://lyesmedjahed.github.io/projects-SARA/)
+🔗 [https://LyesMedjahed/projects-SARA.com](https://lyesmedjahed.github.io/projects-SARA/)
 
 ## 📸 Preview
-![Project Preview](./preview.png)
+![Project Preview](./Multimedia/Projects/SARA.gif)
 
 ## 🛠️ Tech Stack
 ![React](https://img.shields.io/badge/React-blue?style=flat-square&logo=react&logoColor=white)
