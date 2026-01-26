@@ -1,6 +1,5 @@
 # SARA | Fashion E-commerce
-
-A modern frontend responsive web site built with ES6, focused on clean UI and smooth animations.
+A modern and responsive fashion e-commerce website built with JavaScript (ES6), featuring dynamic content, interactive shopping features, and smooth animations powered by GSAP.
 
 ## 🚀 Live Demo
 🔗 [https://LyesMedjahed/projects-SARA.com](https://lyesmedjahed.github.io/projects-SARA/)
@@ -9,7 +8,6 @@ A modern frontend responsive web site built with ES6, focused on clean UI and sm
 ![Project Preview](./MultiMedia/Projects/SARA.gif)
 
 ## 🛠️ Tech Stack
-![React](https://img.shields.io/badge/React-blue?style=flat-square&logo=react&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JS-yellow?style=flat-square&logo=javascript&logoColor=black)
 ![ES6](https://img.shields.io/badge/ES6-yellow?style=flat-square&logo=javascript&logoColor=black)
 ![GSAP](https://img.shields.io/badge/GSAP-black?style=flat-square&logo=greensock&logoColor=32FF00)
@@ -18,7 +16,7 @@ A modern frontend responsive web site built with ES6, focused on clean UI and sm
 
 ## ✨ Features
 - Responsive design for all screen sizes
-- Smooth animated navigation with GSAP ScrollTrigger
+- Smooth scroll-based animations using GSAP ScrollTrigger
 - Dynamic header and footer loading with modern JavaScript ES6 (async/await)
 - Interactive shopping cart with product count
 - Checkout modal (Buy Now popup)
@@ -26,7 +24,6 @@ A modern frontend responsive web site built with ES6, focused on clean UI and sm
 - Product color selection
 - Modern UI/UX
 - Clean and maintainable code
-- 
 
 ## 📂 Installation & Setup
 ```bash
