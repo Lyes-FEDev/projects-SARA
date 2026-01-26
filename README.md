@@ -6,7 +6,7 @@ A modern frontend responsive web site built with ES6, focused on clean UI and sm
 🔗 [https://LyesMedjahed/projects-SARA.com](https://lyesmedjahed.github.io/projects-SARA/)
 
 ## 📸 Preview
-![Project Preview](./Multimedia/Projects/SARA.gif)
+![Project Preview](./MultiMedia/Projects/SARA.gif)
 
 ## 🛠️ Tech Stack
 ![React](https://img.shields.io/badge/React-blue?style=flat-square&logo=react&logoColor=white)
