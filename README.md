@@ -17,14 +17,20 @@ A modern frontend responsive web site built with ES6, focused on clean UI and sm
 ![CSS3](https://img.shields.io/badge/CSS3-blue?style=flat-square&logo=css3&logoColor=white)
 
 ## ✨ Features
-- Responsive design
-- Smooth animations with GSAP
+- Responsive design for all screen sizes
+- Smooth animated navigation with GSAP ScrollTrigger
+- Dynamic header and footer loading with modern JavaScript ES6 (async/await)
+- Interactive shopping cart with product count
+- Checkout modal (Buy Now popup)
+- Product collection display dynamically
+- Product color selection
 - Modern UI/UX
 - Clean and maintainable code
+- 
 
 ## 📂 Installation & Setup
 ```bash
 git clone https://github.com/LyesMedjahed/projects-SARA
-cd REPOSITORY_NAME
+cd projects-SARA
 npm install
 npm run dev
